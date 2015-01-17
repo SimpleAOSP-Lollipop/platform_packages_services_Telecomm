@@ -31,4 +31,5 @@ limitations under the License.
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages ont été bloqués</string>
     <string name="blacklist_notification_list_private">Privé</string>
     <string name="unblock_number">Débloquer</string>
+    
 </resources>
