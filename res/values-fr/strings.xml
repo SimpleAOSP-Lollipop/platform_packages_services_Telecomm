@@ -41,4 +41,21 @@
     <string name="no_vm_number" msgid="4164780423805688336">"Numéro de messagerie vocale manquant"</string>
     <string name="no_vm_number_msg" msgid="1300729501030053828">"Aucun numéro de messagerie vocale n\'est enregistré sur la carte SIM."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Ajouter un numéro"</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Liste noire</string>
+    <string name="blacklist_summary_disabled">Désactivée</string>
+    <string name="blacklist_summary">Les appels entrants provenant de numéros de téléphone dans la liste noire seront bloqués</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Bloqué l\'appel du %s</string>
+    <string name="blacklist_call_notification_private_number">Bloqué l\'appel d\'un numéro privé</string>
+    <string name="blacklist_call_notification_unknown_number">Bloqué l\'appel d\'un numéro inconnu %s</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> appels ont été bloqués</string>
+    <string name="blacklist_message_notification">Bloqué un message du %s</string>
+    <string name="blacklist_message_notification_private_number">Bloqué un message d\'un numéro privé</string>
+    <string name="blacklist_message_notification_unknown_number">Bloqué un message d\'un numéro inconnu %s</string>
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages ont été bloqués</string>
+    <string name="blacklist_notification_list_private">Privé</string>
+    <string name="unblock_number">Débloquer</string>
 </resources>
