@@ -286,14 +286,12 @@ class MissedCallNotifier extends CallsManagerListenerBase {
             return;
         }
 
-        String timeOnKey, timeOffKey, colorKey;
-        colorKey = Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR;
-        timeOnKey = Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON;
-        timeOffKey = Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF;
-
-        notification.ledARGB = Settings.System.getInt(resolver, colorKey, DEFAULT_COLOR);
-        notification.ledOnMS = Settings.System.getInt(resolver, timeOnKey, DEFAULT_TIME);
-        notification.ledOffMS = Settings.System.getInt(resolver, timeOffKey, DEFAULT_TIME);
+        notification.ledARGB = Settings.System.getInt(resolver,
+            Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, DEFAULT_COLOR);
+        notification.ledOnMS = Settings.System.getInt(resolver,
+            Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, DEFAULT_TIME);
+        notification.ledOffMS = Settings.System.getInt(resolver,
+            Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, DEFAULT_TIME);
     }
 
     /**
