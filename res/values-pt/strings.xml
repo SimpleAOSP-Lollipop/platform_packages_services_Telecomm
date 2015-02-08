@@ -45,7 +45,7 @@
     <!-- Blacklist preferences -->
     <string name="blacklist_title">Lista negra</string>
     <string name="blacklist_summary_disabled">Desativado</string>
-    <string name="blacklist_summary">Chamadas recebidas e mensagens de números de telefone na lista negra serão bloqueados</string>
+    <string name="blacklist_summary">Chamadas recebidas de números de telefone na lista negra serão bloqueados</string>
 
     <!-- Blacklist notifications -->
     <string name="blacklist_call_notification">Uma chamada de %s foi bloqueada</string>
